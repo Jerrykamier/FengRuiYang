@@ -1,0 +1,11 @@
+name: university-rag
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - fastapi
+    - uvicorn
+    - pydantic-settings
+    - python-dotenv
